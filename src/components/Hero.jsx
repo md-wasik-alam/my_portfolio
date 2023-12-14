@@ -1,7 +1,7 @@
 import React from 'react'
 import 'animate.css';
 import { VscGithub } from "react-icons/vsc";
-import { FaLinkedinIn ,FaFacebookF,FaInstagram } from "react-icons/fa";
+import { FaLinkedinIn, FaFacebookF, FaInstagram } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
 const Hero = () => {
     return (
@@ -17,19 +17,29 @@ const Hero = () => {
                     <a href="https://www.linkedin.com/in/md-wasik-alam" target='_blank' className='h-10 w-10 rounded-full text-white bg-blue-800 hover:bg-gray-950 flex items-center justify-center text-center'><FaLinkedinIn className='text-[20px]' /></a>
                     <a href="mailto :wasikalam02@gmail.com" target='_blank' className='h-10 w-10 rounded-full text-white bg-orange-800 hover:bg-blue-950 flex items-center justify-center text-center'><MdEmail className='text-[20px]' /></a>
                     <a href="https://www.facebook.com/md.wasikalam.54" target='_blank' className='h-10 w-10 rounded-full text-white bg-blue-700 hover:bg-gray-950 flex items-center justify-center text-center'><FaFacebookF className='text-[20px]' /></a>
-                    <a href="https://www.instagram.com/md_wasik_alam/" target='_blank' className='h-10 w-10 rounded-full text-white bg-pink-700 hover:bg-pink-800 flex items-center justify-center text-center'><FaInstagram  className='text-[20px]' /></a>
+                    <a href="https://www.instagram.com/md_wasik_alam/" target='_blank' className='h-10 w-10 rounded-full text-white bg-pink-700 hover:bg-pink-800 flex items-center justify-center text-center'><FaInstagram className='text-[20px]' /></a>
                 </div>
-               <div className="flex justify-center">
-               <div className="flex justify-between px-8 md:px-1 w-full md:w-1/2 mt-10  ">
-                    <button className='bg-fuchsia-700 font-semibold hover:bg-white  hover:text-fuchsia-700 hover:border hover:border-fuchsia-700 rounded-lg text-white px-3 py-2 border-white border dark:border-gray-950'>Contact me</button>
-                    <button className='bg-fuchsia-700 font-semibold hover:bg-white hover:text-fuchsia-700 hover:border hover:border-fuchsia-700 rounded-lg text-white px-3 py-2 border-white border dark:border-gray-950'>Resume</button>
+                <div className="flex justify-center">
+                    <div className="flex justify-between px-8 md:px-1 w-full md:w-1/2 mt-10  ">
+
+                       
+                        <button
+                            className="w-28 h-12 text-white font-semibold hover:bg-white bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 rounded-lg shadow-lg hover:scale-105 duration-200 hover:drop-shadow-2xl hover:shadow-[#7dd3fc] hover:cursor-pointer"
+                        >
+                            Contact me
+                        </button>
+                        <button
+                            className="w-28 h-12 text-white font-semibold hover:bg-white bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 rounded-lg shadow-lg hover:scale-105 duration-200 hover:drop-shadow-2xl hover:shadow-[#7dd3fc] hover:cursor-pointer"
+                        >
+                            Resume
+                        </button>
+                    </div>
                 </div>
-               </div>
             </div>
             <div className="md:w-1/2 mt-5  flex justify-center">
 
-                <img src="./assets/Development-dark.gif" className='bg-transparent hidden dark:flex' alt="logo" />
-                <img src="./assets/Development.gif" className='bg-transparent  dark:hidden' alt="logo" />
+                <img src="./assets/Development-dark.gif" className=' hidden dark:flex' alt="logo" />
+                <img src="./assets/Development.gif" className='dark:hidden' alt="logo" />
 
             </div>
         </div>
