@@ -1,0 +1,5 @@
+# robots.txt
+
+User-agent: *
+Disallow: /private-page
+Sitemap: https://md-wasik-alam.vercel.app/sitemap.xml
