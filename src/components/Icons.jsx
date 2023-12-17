@@ -13,7 +13,8 @@ import { TbBrandNextjs,TbBrandTailwind,TbBrandReactNative } from "react-icons/tb
 
 const Icons = () => {
     return (
-        <div className=" flex flex-wrap justify-between text-[12px] pt-5">
+       
+        <div className="flex flex-wrap justify-between text-[12px] pt-5">
             <div className="flex hover:text-blue-700 text-gray-600 dark:hover:text-blue-700 dark:text-gray-200  flex-col mt-3 ml-3  items-center">
                 <FaHtml5 className='w-12 h-12'/>
                 <p>html-5</p>
