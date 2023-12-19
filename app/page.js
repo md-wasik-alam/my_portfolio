@@ -1,3 +1,4 @@
+import Contact_Us from "@/src/components/Contact_Us";
 import Education from "@/src/components/Education";
 import Hero from "@/src/components/Hero";
 import Profile from "@/src/components/Profile";
@@ -15,6 +16,7 @@ export default function Home() {
     <Tech/>
     <Education/>
     <Projects/>
+   <Contact_Us/>
     </>
   )
 }

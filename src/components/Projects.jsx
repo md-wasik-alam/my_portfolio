@@ -4,7 +4,7 @@ import React from 'react'
 
 const ProjectCard = ({ href, imageSrc, title, technologies }) => {
     return (
-        <div className="max-w-[420px] hover:cursor-pointer bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+        <div className=" hover:cursor-pointer bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
             <Link href={href} target='_blank' passHref>
               
                     <img className="rounded-t-lg w-full h-[200px]" src={imageSrc} alt="" />
@@ -21,13 +21,15 @@ const ProjectCard = ({ href, imageSrc, title, technologies }) => {
         </div>
     );
 };
+
 const Projects = () => {
     return (
-        <div className='  px-5 sm:px-20 my-10 flex flex-col md:justify-center'>
-            <h1 className='text-6xl'>Projects</h1>
+    <div className='text-center'>
+        <span className="text-6xl font-bold px-1  my-0 border-b-8 border-cyan-500 font-poppins opacity-100">Project</span>
+        <div className='px-5 sm:px-20 my-10 flex flex-col md:justify-center'>
 
 
-            <div className="px-10 mb-2 mt-10 grid gap-2 md:grid-cols-4 sm:grid-cols-2 grid-cols-1">
+            <div className="md:px-10  mb-2 mt-10 grid gap-2 md:grid-cols-4 sm:grid-cols-2 grid-cols-1">
                 <ProjectCard
                     href="https://Servixc.com"
                     imageSrc="./assets/servixc.webp"
@@ -51,7 +53,7 @@ const Projects = () => {
                 />
                 <ProjectCard
                     href="https://github.com/md-wasik-alam/foodeev2"
-                    imageSrc="https://picsum.photos/200/300?random=2"
+                    imageSrc="./assets/food.webp"
                     title="Foodies"
                     technologies="ReactJs, NodeJs, Express, Tailwind, MongoDB"
                     
@@ -60,6 +62,8 @@ const Projects = () => {
             </div>
 
         </div>
+    </div>
+
     )
 }
 
