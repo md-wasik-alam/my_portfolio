@@ -7,6 +7,7 @@ import { SiMongodb } from "react-icons/si";
 import { SiLivewire } from "react-icons/si";
 import { TbBrandCpp } from "react-icons/tb";
 import { TbBrandNextjs,TbBrandTailwind,TbBrandReactNative } from "react-icons/tb";
+import { SiAdobephotoshop } from "react-icons/si";
 
 
 
@@ -94,6 +95,10 @@ const Icons = () => {
             <div className="flex hover:text-blue-700 text-gray-600 dark:hover:text-blue-700 dark:text-gray-200 flex-col mt-3 ml-3  items-center">
                 <FaBootstrap className='w-12 h-12'/>
                 <p>Bootstrap</p>
+            </div>
+            <div className="flex hover:text-blue-700 text-gray-600 dark:hover:text-blue-700 dark:text-gray-200 flex-col mt-3 ml-3  items-center">
+                <SiAdobephotoshop className='w-12 h-12'/>
+                <p>Photoshop</p>
             </div>
            
         </div>

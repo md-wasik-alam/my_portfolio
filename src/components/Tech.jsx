@@ -16,9 +16,9 @@ const Tech = () => {
                     <p className='border border-pink-600 mt-2 ms-2 dark:text-white dark:bg-slate-900 rounded-lg bg-gray-100 px-2 py-1'>React Native</p>
                 </div>
             </div>
-            <div href="#" class="block max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
+            <div href="#" className="block max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
 
-                <h5 class="mb-2 md:text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Backend</h5>
+                <h5 className="mb-2 md:text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Backend</h5>
                 <div className="flex flex-wrap   mx-auto">
                     <p className='border border-red-600 mt-2 ms-2 dark:text-white dark:bg-slate-900 rounded-lg bg-gray-100 px-2 py-1'>Node Js</p>
                     <p className='border border-pink-500 mt-2 ms-2 dark:text-white dark:bg-slate-900 rounded-lg bg-gray-100 px-2 py-1'>Express</p>
@@ -28,9 +28,9 @@ const Tech = () => {
                     {/* <p className='border mt-2 ms-2 dark:text-white dark:bg-slate-900 rounded-lg bg-gray-100 px-2 py-1'>React Native</p> */}
                 </div>
             </div>
-            <div href="#" class="block max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
+            <div href="#" className="block max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
 
-                <h5 class="mb-2 md:text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Database</h5>
+                <h5 className="mb-2 md:text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Database</h5>
                 <div className="flex flex-wrap   mx-auto">
                     <p className='border border-yellow-600 mt-2 ms-2 dark:text-white dark:bg-slate-900 rounded-lg bg-gray-100 px-2 py-1'>MySql</p>
                     <p className='border border-teal-600 mt-2 ms-2 dark:text-white dark:bg-slate-900 rounded-lg bg-gray-100 px-2 py-1'>MongoDB</p>
@@ -38,9 +38,9 @@ const Tech = () => {
                     
                 </div>
             </div>
-            <div href="#" class="block max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
+            <div href="#" className="block max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
 
-                <h5 class="mb-2 md:text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Devops</h5>
+                <h5 className="mb-2 md:text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Devops</h5>
                 <div className="flex flex-wrap   mx-auto">
                     <p className='border mt-2 ms-2 border-pink-700 dark:text-white dark:bg-slate-900 rounded-lg bg-gray-100 px-2 py-1'>Docker</p>
                     <p className='border mt-2 ms-2 border-pink-700 dark:text-white dark:bg-slate-900 rounded-lg bg-gray-100 px-2 py-1'>Git</p>

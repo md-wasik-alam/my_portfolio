@@ -9,7 +9,7 @@ const Skills = () => {
     });
     return (
 
-        <section id='Skills' className="md:flex-row-reverse md:flex mt-[40px] px-10 ">
+        <section id='Skills' className="md:flex-row-reverse md:flex mt-[40px] px-5 md:px-10 ">
             <div ref={ref} className={`mt-8 md:w-1/2 md:pr-5   ${inView ? 'animate__rotateInDownRight' : ''}`}>
                 <h1 className='text-6xl '>What I know</h1>
                 <p className='text-[25px] mt-5 text-justify  dark:text-gray-100  text-gray-700'>

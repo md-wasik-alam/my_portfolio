@@ -23,7 +23,7 @@ const Hero = () => {
     return (
         <div className='md:flex px-5 md:px-10  dark:bg-gray-900'>
             <div className=" md:w-1/2 md:p-10 dark:text-white">
-                <h1 className=' font-mono text-[20px] flex text-center md:self-start md:text-[30px] font-bold animate__animated animate__backInDown'>Hi all, I'm  </h1>
+                <h1 className=' font-mono text-[20px]  text-center md:text-[30px] font-bold animate__animated animate__backInDown'>Hi all, I'm  </h1>
 
                 <h1 className=' lg:text-[60px] text-center md:text-start text-[45px]  font-bold mt-2 font-serif animate__animated animate__backInLeft'>Md Wasik Alam </h1>
 
