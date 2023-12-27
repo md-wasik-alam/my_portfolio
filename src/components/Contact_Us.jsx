@@ -5,14 +5,23 @@ import Swal from 'sweetalert2';
 const Contact_Us = () => {
     const [message,setMessage]=useState('');
     const test = () => {
+      if (message!='') {
         Swal.fire({
-          title: "Message Send",
-          text: message,
-          icon: "success"
-        });
+            title: "Message Send",
+            text: message,
+            icon: "success"
+          });
+      }
+      else{
+        Swal.fire({
+            title: "Message is black",
+            text: message,
+            icon: "warning"
+          });
+      }
       }
     return (
-        <div className="container mt-5 px-5 mb-5 text-center">
+        <div  id='contact' className="container mt-5 px-5 mb-5 text-center">
             <div className="Toastify"></div>
             <span className="text-6xl font-bold px-1 my-0 border-b-8 border-cyan-500 font-poppins opacity-100">Get In Touch</span>
             <div className='row  lg:flex md:flex mt-10'>

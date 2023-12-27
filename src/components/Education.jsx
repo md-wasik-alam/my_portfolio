@@ -3,8 +3,8 @@ import React from 'react'
 const Education = () => {
     return (
     <>
-    <div className='text-center mt-12'>
-        <span className="text-6xl font-bold px-1  my-0 border-b-8 border-cyan-500 font-poppins opacity-100">Edudation</span>
+    <div id='education' className='text-center mt-12'>
+        <span  className="text-6xl font-bold px-1  my-0 border-b-8 border-cyan-500 font-poppins opacity-100">Education</span>
      </div>
         <div className=' px-5 md:px-[120px  ] my-10 flex flex-col md:justify-center'>
             {/* <h1 className='text-6xl'>Edudation</h1> */}

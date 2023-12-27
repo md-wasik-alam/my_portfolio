@@ -13,7 +13,7 @@ const Profile = () => {
           <img className="object-fill w-full h-full rounded-md" src="./assets/banner.webp" alt="Background Image" />
         </div>
         {/* <!-- Profile Picture --> */}
-        <div className="relative flex justify-center md:justify-start -mt-[120px] animate__animated animate__bounceInUp">
+        <div className="relative flex justify-center  -mt-[120px] animate__animated animate__bounceInUp">
           <div className="object-cover z-20 h-[150px] sm:h-[200px] w-[150px] sm:w-[200px]   border-4 border-cyan-700 to-red-600 from-amber-700 rounded-full relative">
             <img className="object-cover border-image-clip-path w-full z-20 h-full rounded-full " src="./assets/profile.webp" alt="Profile Picture" />
             {/* <div className="absolute inset-0 rounded-full overflow-hidden border-rainbow-gradient"></div> */}
@@ -21,7 +21,7 @@ const Profile = () => {
         </div>
         {/* <!-- User Info --> */}
         <div className="text-center mt-4">
-          <div className=" flex space-x-2 mt-6 justify-center md:justify-start animate__animated animate__rubberBand">
+          <div className=" flex space-x-2 mt-6 justify-center  animate__animated animate__rubberBand">
             {/* <div class="tooltip-container">
               <span class="tooltip">Discover</span>
               <span class="text">
