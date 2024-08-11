@@ -200,3 +200,23 @@
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
   }
+
+
+
+  /* ai ranbow color  */
+  .rainbow-text {
+    background: linear-gradient(90deg, red, orange, yellow, green, blue, indigo, violet);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    animation: rainbow 5s ease infinite;
+  }
+  
+  @keyframes rainbow {
+    0%, 100% {
+      background-position: 0 0;
+    }
+    50% {
+      background-position: 100% 0;
+    }
+  }
