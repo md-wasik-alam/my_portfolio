@@ -31,9 +31,9 @@ const Projects = () => {
 
             <div className="md:px-10  mb-2 mt-10 grid gap-2 md:grid-cols-4 sm:grid-cols-2 grid-cols-1">
                 <ProjectCard
-                    href="https://Servixc.com"
+                    href="https://novafix.com"
                     imageSrc="./assets/servixc.webp"
-                    title="Servixc"
+                    title="Novafix"
                     technologies="Laravel, Php, Js, MySql, Livewire, Bootstrap, Css"
                     
                 />
