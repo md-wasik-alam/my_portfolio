@@ -31,7 +31,7 @@ export default function RootLayout({ children }) {
         {children}
         <footer className="bg-gray-200 dark:bg-gray-800 py-4">
           <div className="container mx-auto text-center">
-            <p>&copy; {new Date().getFullYear()} Md Wasik Alam. All rights reserved.</p>
+            <p>&copy; 2026 Md Wasik Alam. All rights reserved.</p>
           </div>
 
 
